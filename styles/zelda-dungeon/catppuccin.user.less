@@ -182,5 +182,32 @@ var(--ctp-crust) 100%);
 			background-color: var(--ctp-overlay0);
 			color: var(--ctp-text);
 		}
+
+		.p-sectionLinks, .p-nav, .p-nav-list.js-offCanvasNavSource, .p-navgroup-link {
+			background-color: var(--ctp-crust) !important;
+			border-color: var(--ctp-accent);
+		}
+
+		.button--icon,
+		.button--icon > * {
+			background-color: var(--ctp-accent) !important;
+			color: var(--ctp-crust) !important;
+		}
+
+		.button--icon:hover,
+		.button--icon:hover > * {
+			background-color: var(--ctp-green) !important;
+			outline-color: var(--ctp-accent) !important;
+		}
+		
+		.a-bolt:hover, span.button-text:hover {
+			color: var(--ctp-crust) !important;
+		}
+
+
+		.p-nav-list.js-offCanvasNavSource > li:hover, .is-selected > a {
+			background-color: var(--ctp-accent) !important;
+			color: var(--ctp-crust) !important;
+		}
 	}
 }
